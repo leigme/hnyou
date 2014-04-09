@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      {{template "header.tpl"}}
+      <title> - </title>
+    </head>
+    <body>
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      {{template "navbar.tpl"}}
+      </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+              <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked">
+                  <li class="active"><a href="#">编辑</a></li>
+                  <li><a href="#">添加</a></li>
+                  <li><a href="#">删除</a></li>
+                  <li><a href="#">清空</a></li>
+                </ul>
+              </div>
+              <div class="col-md-10">
+                <table class="table table-hover table-striped">
+                  <thead>
+                    <tr>
+                      <th>#</th><th>地区</th><th>景点名称</th><th>门票价格</th><th>备注</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th><th>张家界</th><th>张家界国家森林公园</th><th>160元/人</th><th><a href="/editor">编辑</a></th>
+                    </tr>
+                    <tr>
+                      <th>2</th><th>张家界</th><th>武陵源</th><th>120元/人</th><th><a href="/editor">编辑</a></th>
+                    </tr>
+                    <tr>
+                      <th>3</th><th>张家界</th><th>天门山</th><th>100元/人</th><th><a href="/editor">编辑</a></th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <hr>
+            <div class="container">
+              <footer>
+                {{template "footer.tpl"}}
+              </footer>
+            </div>
+          </div> <!-- /container -->
+    </body>
+</html>

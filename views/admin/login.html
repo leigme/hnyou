@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      {{template "header.tpl"}}
+      <title> - </title>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  {{template "logo.tpl"}}
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+              <form action="/admin" method="post">
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div class="input-group">
+                        <span class="input-group-addon">用户名称</span>
+                        <input type="text" class="form-control" name="username">
+                      </div><!-- /input-group -->
+                    </div><!-- /col-md-4 -->
+                    <div class="col-md-4"></div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div class="input-group">
+                        <span class="input-group-addon">登录密码</span>
+                        <input type="password" class="form-control" name="password">
+                      </div><!-- /input-group -->
+                    </div><!-- /col-md-4 -->
+                    <div class="col-md-4"></div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <button type="submit" class="btn btn-success">登录</button>
+                      <button type="button" class="btn btn-warning" onclick="location='/'">返回</button>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+              </div>
+              </form>
+            <hr>
+            <div class="container">
+              <footer>
+                {{template "footer.tpl"}}
+              </footer>
+            </div>
+          </div> <!-- /container -->
+    </body>
+</html>

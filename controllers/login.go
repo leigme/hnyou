@@ -10,8 +10,8 @@ type LoginController struct {
 
 //get方法登录
 func (this *LoginController) Get() {
-	this.Data["IsLogin"]=true
-	this.TplNames = "login.tpl"
+	this.Data["IsLogin"] = true
+	this.TplNames = "admin/login.html"
 }
 
 //post方法登录
