@@ -1,11 +1,12 @@
 {{define "admin/editor.tpl"}}
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
 <link href="/static/editor/external/google-code-prettify/prettify.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="/static/editor/external/jquery.hotkeys.js"></script>
-<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
 <script src="/static/editor/external/google-code-prettify/prettify.js"></script>
 <link href="/static/editor/index.css" rel="stylesheet">
 <script src="/static/editor/bootstrap-wysiwyg.js"></script>
