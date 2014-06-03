@@ -1,0 +1,21 @@
+.gototop {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background: yellow;
+}
+
+#btn_gototop {
+    width:40px;
+    height:40px;
+    position:fixed;
+    left:50%; 
+  	display: none;
+    margin-left:650px;
+    bottom:30px; 
+    background:url(/static/images/gototop.jpg) no-repeat left top;
+    }
+
+#btn_gototop:hover {
+    background:url(/static/images/gototop.jpg) no-repeat 0 -40px;
+    }
